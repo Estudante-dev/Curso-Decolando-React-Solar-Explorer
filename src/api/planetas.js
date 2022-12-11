@@ -9,10 +9,14 @@ export default class ApiPlanetas {
     }
 
     static async obter(json) {
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+
         var requestOptions = {
             method: 'POST',
+            headers: myHeaders,
             body: JSON.stringify(json),
-            redirect: 'follow'
+            redirect: 'follow',
         };
 
         try {
