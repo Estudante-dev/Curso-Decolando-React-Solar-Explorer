@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export default function PaginaPlanetas() {
     return (<>
         <Container maxWidth="xl">
-            <Typography variant="h2" component="h1" textAlign="center">Planetas do sistema solar!</Typography>
+            <Typography variant="h2" component="h1" textAlign="center" pt={2}>Planetas do sistema solar!</Typography>
 
-            <Grid container spacing={2} mt={2}>
+            <Grid container spacing={2} pt={2}>
                 {/* XS = 2 item */}
                 {/* SM = 3 item */}
                 {/* MD = 4 item */}
@@ -14,7 +14,7 @@ export default function PaginaPlanetas() {
                 {/* XL = 6 item */}
 
                 <Grid item xs={6} sm={4} md={3} lg={2} xl={2}>
-                    <Card>
+                    <Card className="cardVidro">
                         <Link to="/planeta/test">
                             <CardActionArea>
                                 <CardContent>
