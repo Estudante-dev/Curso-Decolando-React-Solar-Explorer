@@ -1,6 +1,7 @@
 import { ThemeProvider } from "@mui/material";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import tema from "./Tema";
+import "./App.css";
 import PaginaInicio from "./paginas/inicio";
 import PaginaPlanetas from "./paginas/planetas";
 import PaginaPlaneta from "./paginas/planeta";

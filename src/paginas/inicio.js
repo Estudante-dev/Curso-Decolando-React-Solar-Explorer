@@ -9,11 +9,12 @@ export default function PaginaInicio() {
             justifyContent="center"
             alignItems="center"
             spacing={2}
+            height="100vh"
         >
 
-            <Typography variant="h2" component="h1">Conheça os planetas do Sistema Solar!</Typography>
+            <Typography variant="h3" component="h1" textAlign="center">Conheça os planetas do Sistema Solar!</Typography>
 
-            <img className="efeito-flutuando" src="/img/astronauta.png" alt="Astronauta Flutuando." />
+            <img className="animacaoEfeitoFlutuando" src="/img/astronauta.png" alt="Astronauta Flutuando." />
 
             <Link to="/planetas">
                 <Button variant="contained" size="large">Vamos lá <ArrowForwardIosIcon/></Button>
