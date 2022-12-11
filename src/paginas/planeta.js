@@ -16,7 +16,7 @@ export default function PaginaPlaneta() {
 
 
     return (<>
-        <Container maxWidth="xl">
+        <Container maxWidth="xl" className="containerMargin">
             <Link to="/planetas">
                 <Button variant="outlined" size="large"><ArrowBackIosIcon/> Voltar</Button>
             </Link>
@@ -29,7 +29,7 @@ export default function PaginaPlaneta() {
                 spacing={2}
             >
 
-                <img className="efeito-girar" src="" alt="" />
+                <img className="animacaoEfeitoGirar" src="" alt="" />
                 <Typography variant="h5" component="h1">Terra</Typography>
                 <Typography variant="body1" component="p">Descrição do planeta terra.</Typography>
 

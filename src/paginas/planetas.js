@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function PaginaPlanetas() {
     return (<>
-        <Container maxWidth="xl">
-            <Typography variant="h2" component="h1" textAlign="center" pt={2}>Planetas do sistema solar!</Typography>
+        <Container maxWidth="xl" className="containerMargin">
+            <Typography variant="h2" component="h1" textAlign="center">Planetas do sistema solar!</Typography>
 
             <Grid container spacing={2} pt={2}>
                 {/* XS = 2 item */}
