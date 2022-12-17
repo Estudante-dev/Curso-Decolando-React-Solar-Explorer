@@ -11,8 +11,9 @@ export default function PaginaPlaneta() {
     const parametros = useParams();
     const [carregando, setCarregando] = useState(true);
     const [erro, setErro] = useState(null);
-    const [msg, setMsg] = useState(null);
     const [planeta, setPlaneta] = useState({});
+    // eslint-disable-next-line
+    const [msg, setMsg] = useState(null);
 
 
     // Função que executa quando é aberto a página
@@ -33,7 +34,7 @@ export default function PaginaPlaneta() {
             }
 
         })()
-    }, []);
+    }, [parametros]);
 
     async function ClickCompartilhar() {
         let resImg = await fetch(planeta?.imgUrl);

@@ -8,8 +8,9 @@ export default function PaginaPlanetas() {
 
     const [carregando, setCarregando] = useState(true);
     const [erro, setErro] = useState(null);
-    const [msg, setMsg] = useState(null);
     const [planetas, setPlanetas] = useState([]);
+    // eslint-disable-next-line
+    const [msg, setMsg] = useState(null);
 
 
     // Função que executa quando é aberto a página
