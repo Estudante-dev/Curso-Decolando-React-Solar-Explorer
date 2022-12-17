@@ -1,6 +1,1 @@
-[{
-        "relation": ["delegate_permission/common.handle_all_urls"],
-        "target" : { "namespace": "android_app", "package_name": "solarexplorer.netlify.app",
-                     "sha256_cert_fingerprints": ["A4:39:5D:A4:ED:31:04:36:FD:E4:8D:64:36:98:A9:26:8B:7C:EC:FB:A9:D2:EE:1F:1C:2C:4A:E8:C3:E0:E3:54"] }
-      }
-]
+[]
